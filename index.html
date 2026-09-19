@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest 2026</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: Arial, sans-serif; background-color: white; color: #222; }
+        #outerbox1 { background-color: rgb(54, 54, 160); min-height: 225px; width: 100%; padding: 30px 20px; }
+        #outerbox1 h1 { color: aliceblue; text-align: center; margin: 20px 0; font-size: 50px; }
+        #outerbox1 h2 { color: aliceblue; text-align: center; font-size: 25px; margin: 15px 0; }
+        .container { width: 90%; max-width: 1250px; margin: auto; }
+        h1.section-title { color: rgb(43, 43, 160); margin-top: 35px; }
+        h2.section-subtitle { color: rgb(21, 63, 199); }
+        .custom-line { border: 1px solid rgb(43, 43, 160); }
+        p { font-size: 17px; line-height: 1.6; }
+        .tech-image { display: block; margin: 25px auto; width: 500px; height: 300px; object-fit: cover; max-width: 100%; }
+        ul, ol { font-size: 18px; line-height: 2; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid black; padding: 12px; text-align: left; }
+        th { background-color: rgb(22, 22, 139); color: white; font-size: 18px; }
+        tr:nth-child(even) { background-color: rgb(150, 208, 244); }
+        td { font-size: 17px; }
+        form { margin-top: 25px; font-size: 17px; }
+        .form-row { margin-bottom: 15px; }
+        label { display: inline-block; min-width: 130px; font-weight: bold; }
+        input, select, textarea { padding: 9px; margin: 5px; font-size: 16px; border: 1px solid #777; border-radius: 4px; }
+        input[type="radio"] { margin-left: 5px; }
+        textarea { width: 400px; height: 90px; vertical-align: top; resize: vertical; }
+        input[type="submit"] { background-color: rgb(54, 54, 160); color: white; border: none; padding: 12px 30px; cursor: pointer; font-size: 17px; border-radius: 5px; }
+        input[type="submit"]:hover { background-color: rgb(35, 35, 120); }
+        .contact { background-color: #f1f4ff; padding: 25px; margin-top: 40px; border-left: 5px solid rgb(54, 54, 160); }
+        .contact p { margin: 8px 0; }
+        footer { background-color: rgb(54, 54, 160); color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        footer p { margin: 5px; }
+        @media (max-width: 700px) {
+            #outerbox1 h1 { font-size: 35px; }
+            #outerbox1 h2 { font-size: 18px; }
+            .container { width: 94%; }
+            table { font-size: 13px; display: block; overflow-x: auto; }
+            textarea { width: 90%; }
+            label { display: block; margin-top: 8px; }
+            .tech-image { width: 100%; height: auto; }
+        }
+    </style>
+</head>
+<body>
+    <div id="outerbox1">
+        <h1>TechFest 2026</h1>
+        <h2>Innovate. Create. Inspire.</h2>
+        <h2>Annual Technology Festival of ABC College</h2>
+    </div>
+    <div class="container">
+        <h1 class="section-title">About TechFest</h1>
+        <hr class="custom-line">
+        <p>TechFest 2026 is an exciting technology event organized by ABC College. The event provides students with an opportunity to demonstrate their technical knowledge, creativity and problem-solving skills.</p>
+        <p>Students from different courses can participate in coding competitions, web development challenges, quizzes, project exhibitions and other exciting activities. The event is designed to encourage innovation, teamwork and learning.</p>
+        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4" alt="Students participating in a technology event" class="tech-image">
+        <p>Learn more about web standards at <a href="https://www.w3.org/" target="_blank">W3C</a>.</p>
+        <h1 class="section-title">Events &amp; Activities</h1>
+        <hr class="custom-line">
+        <h2 class="section-subtitle">Available Events</h2>
+        <ul>
+            <li>Web Development Challenge</li>
+            <li>Coding Competition</li>
+            <li>Quiz Competition</li>
+            <li>Project Exhibition</li>
+            <li>Poster Making Competition</li>
+        </ul>
+        <h2 class="section-subtitle">How to Participate</h2>
+        <ol>
+            <li>Select your preferred event.</li>
+            <li>Complete the registration form.</li>
+            <li>Submit your registration.</li>
+            <li>Receive confirmation from the organizers.</li>
+            <li>Attend the event on the scheduled date.</li>
+        </ol>
+        <h1 class="section-title">TechFest Schedule</h1>
+        <hr class="custom-line">
+        <table>
+            <tr><th>Time</th><th>Event</th><th>Venue</th><th>Coordinator</th></tr>
+            <tr><td>09:00 AM</td><td>Inauguration</td><td>Auditorium</td><td>Dr. Sharma</td></tr>
+            <tr><td>10:00 AM</td><td>Coding Competition</td><td>Computer Lab 1</td><td>Mr. Kumar</td></tr>
+            <tr><td>11:30 AM</td><td>Web Development Challenge</td><td>Computer Lab 2</td><td>Ms. Singh</td></tr>
+            <tr><td>01:00 PM</td><td>Lunch Break</td><td>Cafeteria</td><td>Organizing Team</td></tr>
+            <tr><td>02:00 PM</td><td>Quiz Competition</td><td>Room 201</td><td>Mr. Verma</td></tr>
+            <tr><td>03:00 PM</td><td>Project Exhibition</td><td>Exhibition Hall</td><td>Dr. Mehta</td></tr>
+            <tr><td>04:30 PM</td><td>Prize Distribution</td><td>Auditorium</td><td>Principal</td></tr>
+        </table>
+        <h1 class="section-title">TechFest Registration</h1>
+        <hr class="custom-line">
+        <form>
+            <div class="form-row"><label for="fullname">Full Name:</label><input type="text" id="fullname" name="fullname" placeholder="Enter your full name"></div>
+            <div class="form-row"><label for="email">Email Address:</label><input type="email" id="email" name="email" placeholder="Enter your email"></div>
+            <div class="form-row"><label for="phone">Phone Number:</label><input type="tel" id="phone" name="phone" placeholder="Enter your phone number"></div>
+            <div class="form-row">
+                <label>Gender:</label>
+                <input type="radio" name="gender" id="male" value="Male"><label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="Female"><label for="female">Female</label>
+                <input type="radio" name="gender" id="other" value="Other"><label for="other">Other</label>
+            </div>
+            <div class="form-row"><label for="course">Course:</label><select id="course" name="course"><option>BCA</option><option>B.Tech</option><option>MCA</option><option>BBA</option><option>Other</option></select></div>
+            <div class="form-row"><label for="year">Year:</label><select id="year" name="year"><option>1st Year</option><option>2nd Year</option><option>3rd Year</option><option>4th Year</option></select></div>
+            <div class="form-row"><label for="event">Select Event:</label><select id="event" name="event"><option>Coding Competition</option><option>Web Development Challenge</option><option>Quiz Competition</option><option>Project Exhibition</option><option>Poster Making Competition</option></select></div>
+            <div class="form-row"><label for="address">Address:</label><textarea id="address" name="address" placeholder="Enter your address"></textarea></div>
+            <div class="form-row"><label for="comments">Comments:</label><textarea id="comments" name="comments" placeholder="Enter your comments or questions"></textarea></div>
+            <input type="submit" value="Register">
+        </form>
+        <div class="contact">
+            <h1 class="section-title">Contact Us</h1>
+            <p><strong>Event Coordinator:</strong> Dr. Sharma</p>
+            <p><strong>Email:</strong> techfest@example.com</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Venue:</strong> ABC College, Main Campus</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2026 TechFest | ABC College</p>
+        <p>All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
